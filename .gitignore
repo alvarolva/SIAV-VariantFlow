@@ -1,0 +1,48 @@
+# macOS
+.DS_Store
+
+# Raw and trimmed sequencing reads
+data/raw/
+data/trimmed/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# BAM/SAM files and indexes
+*.bam
+*.bai
+*.sbi
+*.sam
+
+# Variant intermediate files
+results/variants/
+results/consensus/
+results/reference_index/
+
+# QC outputs
+results/qc/
+
+# SnpEff generated database
+resources/snpeff/data/
+
+# Temporary/intermediate files
+*.tmp
+*.log
+
+# Keep final summary results
+!results/summary/
+!results/summary/*.tsv
+
+# Keep final figures
+!results/figures/
+!results/figures/*.png
+
+# Generated reference indexes
+*.amb
+*.ann
+*.bwt
+*.fai
+*.pac
+*.sa
+*.dict

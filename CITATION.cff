@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use SIAV-VariantFlow in your research, please cite this software and the relevant associated publication."
+title: "SIAV-VariantFlow"
+type: software
+
+authors:
+  - family-names: "López-Valiñas"
+    given-names: "Álvaro"
+    orcid: "https://orcid.org/0000-0002-7492-5108"
+
+repository-code: "https://github.com/alvarolva/SIAV-VariantFlow"
+
+abstract: >-
+  A reproducible bioinformatics workflow for low-frequency
+  intrahost variant detection, annotation and coverage analysis
+  in swine influenza A virus from Illumina paired-end sequencing data.
+
+keywords:
+  - influenza A virus
+  - swine influenza
+  - viral genomics
+  - intrahost variation
+  - variant calling
+  - LoFreq
+  - Illumina

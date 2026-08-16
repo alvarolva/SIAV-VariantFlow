@@ -1,0 +1,21 @@
+name: siav-variantflow
+
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  - python=3.10
+  - openjdk=17
+  - fastqc=0.12.1
+  - multiqc=1.35
+  - trimmomatic=0.40
+  - bwa=0.7.19
+  - bowtie2=2.5.5
+  - samtools=1.24
+  - bcftools=1.24
+  - gatk4=4.6.2.0
+  - lofreq=2.1.5
+  - gffread=0.12.9
+  - sra-tools

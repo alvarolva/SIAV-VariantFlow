@@ -1,0 +1,77 @@
+##sequence-region HF674912.1 1 1701
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=502956
+HF674912.1	EMBL	region	1	1701	.	+	.	ID=HF674912.1:1..1701;Dbxref=taxon:502956;Name=4;country=Spain:Catalonia;gbkey=Src;isolation-source=lung;lab-host=chicken embryos 1p and MDCKs 1p;mol_type=genomic RNA;nat-host=Swine;note=isolated and serotyped by Jaime Maldonado%2C Laboratorios HIPRA S.A.%2C Girona-Spain;old-name=Influenza A virus (A/Swine/Spain/80598LP4/2007(H1N2));segment=4;serotype=H1N2;strain=A/Swine/Spain/80598LP4/2007
+HF674912.1	EMBL	gene	1	1701	.	+	.	ID=gene-HA;Name=HA;gbkey=Gene;gene=HA;gene_biotype=protein_coding
+HF674912.1	EMBL	CDS	1	1701	.	+	0	ID=cds-CCQ71983.1;Parent=gene-HA;Dbxref=NCBI_GP:CCQ71983.1;Name=CCQ71983.1;gbkey=CDS;gene=HA;product=hemagglutinin;protein_id=CCQ71983.1
+
+##sequence-region HF674913.1 1 1410
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=502956
+HF674913.1	EMBL	region	1	1410	.	+	.	ID=HF674913.1:1..1410;Dbxref=taxon:502956;Name=6;country=Spain:Catalonia;gbkey=Src;isolation-source=lung;lab-host=chicken embryos 1p and MDCKs 1p;mol_type=genomic RNA;nat-host=Swine;note=isolated and serotyped by Jaime Maldonado%2C Laboratorios HIPRA S.A.%2C Girona-Spain;old-name=Influenza A virus (A/Swine/Spain/80598LP4/2007(H1N2));segment=6;serotype=H1N2;strain=A/Swine/Spain/80598LP4/2007
+HF674913.1	EMBL	gene	1	1410	.	+	.	ID=gene-NA;Name=NA;gbkey=Gene;gene=NA;gene_biotype=protein_coding
+HF674913.1	EMBL	CDS	1	1410	.	+	0	ID=cds-CCQ71984.1;Parent=gene-NA;Dbxref=NCBI_GP:CCQ71984.1;Name=CCQ71984.1;gbkey=CDS;gene=NA;product=neuraminidase;protein_id=CCQ71984.1
+
+##sequence-region HF674914.1 1 982
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=502956
+HF674914.1	EMBL	region	1	982	.	+	.	ID=HF674914.1:1..982;Dbxref=taxon:502956;Name=7;country=Spain:Catalonia;gbkey=Src;isolation-source=lung;lab-host=chicken embryos 1p and MDCKs 1p;mol_type=genomic RNA;nat-host=Swine;note=isolated and serotyped by Jaime Maldonado%2C Laboratorios HIPRA S.A.%2C Girona-Spain;old-name=Influenza A virus (A/Swine/Spain/80598LP4/2007(H1N2));segment=7;serotype=H1N2;strain=A/Swine/Spain/80598LP4/2007
+HF674914.1	EMBL	gene	1	982	.	+	.	ID=gene-M2;Name=M2;gbkey=Gene;gene=M2;gene_biotype=protein_coding
+HF674914.1	EMBL	exon	1	26	.	+	.	ID=id-M2-1;Parent=gene-M2;exon_number=1;gbkey=exon;gene=M2;number=1
+HF674914.1	EMBL	intron	27	714	.	+	.	ID=id-M2;exon_number=1;gbkey=intron;gene=M2;number=1
+HF674914.1	EMBL	mRNA	1	982	.	+	.	ID=rna-M2;Parent=gene-M2;gbkey=mRNA;gene=M2
+HF674914.1	EMBL	exon	1	26	.	+	.	ID=exon-M2-1;Parent=rna-M2;gbkey=mRNA;gene=M2
+HF674914.1	EMBL	exon	715	982	.	+	.	ID=exon-M2-2;Parent=rna-M2;gbkey=mRNA;gene=M2
+HF674914.1	EMBL	CDS	1	26	.	+	0	ID=cds-CCQ71985.1;Parent=rna-M2;Dbxref=NCBI_GP:CCQ71985.1;Name=CCQ71985.1;gbkey=CDS;gene=M2;product=matrix protein 2;protein_id=CCQ71985.1
+HF674914.1	EMBL	CDS	715	982	.	+	1	ID=cds-CCQ71985.1;Parent=rna-M2;Dbxref=NCBI_GP:CCQ71985.1;Name=CCQ71985.1;gbkey=CDS;gene=M2;product=matrix protein 2;protein_id=CCQ71985.1
+HF674914.1	EMBL	exon	715	982	.	+	.	ID=id-M2-2;Parent=gene-M2;exon_number=2;gbkey=exon;gene=M2;number=2
+HF674914.1	EMBL	gene	1	759	.	+	.	ID=gene-M1;Name=M1;gbkey=Gene;gene=M1;gene_biotype=protein_coding
+HF674914.1	EMBL	CDS	1	759	.	+	0	ID=cds-CCQ71986.1;Parent=gene-M1;Dbxref=NCBI_GP:CCQ71986.1;Name=CCQ71986.1;gbkey=CDS;gene=M1;product=matrix protein 1;protein_id=CCQ71986.1
+
+##sequence-region HF674915.1 1 1497
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=502956
+HF674915.1	EMBL	region	1	1497	.	+	.	ID=HF674915.1:1..1497;Dbxref=taxon:502956;Name=5;country=Spain:Catalonia;gbkey=Src;isolation-source=lung;lab-host=chicken embryos 1p and MDCKs 1p;mol_type=genomic RNA;nat-host=Swine;note=isolated and serotyped by Jaime Maldonado%2C Laboratorios HIPRA S.A.%2C Girona-Spain;old-name=Influenza A virus (A/Swine/Spain/80598LP4/2007(H1N2));segment=5;serotype=H1N2;strain=A/Swine/Spain/80598LP4/2007
+HF674915.1	EMBL	gene	1	1497	.	+	.	ID=gene-NP;Name=NP;gbkey=Gene;gene=NP;gene_biotype=protein_coding
+HF674915.1	EMBL	CDS	1	1497	.	+	0	ID=cds-CCQ71987.1;Parent=gene-NP;Dbxref=NCBI_GP:CCQ71987.1;Name=CCQ71987.1;gbkey=CDS;gene=NP;product=nucleocapsid protein;protein_id=CCQ71987.1
+
+##sequence-region HF674916.1 1 844
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=502956
+HF674916.1	EMBL	region	1	844	.	+	.	ID=HF674916.1:1..844;Dbxref=taxon:502956;Name=8;country=Spain:Catalonia;gbkey=Src;isolation-source=lung;lab-host=chicken embryos 1p and MDCKs 1p;mol_type=genomic RNA;nat-host=Swine;note=isolated and serotyped by Jaime Maldonado%2C Laboratorios HIPRA S.A.%2C Girona-Spain;old-name=Influenza A virus (A/Swine/Spain/80598LP4/2007(H1N2));segment=8;serotype=H1N2;strain=A/Swine/Spain/80598LP4/2007
+HF674916.1	EMBL	gene	1	838	.	+	.	ID=gene-NS2;Name=NS2;gbkey=Gene;gene=NS2;gene_biotype=protein_coding
+HF674916.1	EMBL	exon	1	30	.	+	.	ID=id-NS2-1;Parent=gene-NS2;exon_number=1;gbkey=exon;gene=NS2;number=1
+HF674916.1	EMBL	intron	31	502	.	+	.	ID=id-NS2;exon_number=1;gbkey=intron;gene=NS2;number=1
+HF674916.1	EMBL	mRNA	1	838	.	+	.	ID=rna-NS2;Parent=gene-NS2;gbkey=mRNA;gene=NS2
+HF674916.1	EMBL	exon	1	30	.	+	.	ID=exon-NS2-1;Parent=rna-NS2;gbkey=mRNA;gene=NS2
+HF674916.1	EMBL	exon	503	838	.	+	.	ID=exon-NS2-2;Parent=rna-NS2;gbkey=mRNA;gene=NS2
+HF674916.1	EMBL	CDS	1	30	.	+	0	ID=cds-CCQ71988.1;Parent=rna-NS2;Dbxref=NCBI_GP:CCQ71988.1;Name=CCQ71988.1;gbkey=CDS;gene=NS2;product=nonstructural protein 2;protein_id=CCQ71988.1
+HF674916.1	EMBL	CDS	503	838	.	+	0	ID=cds-CCQ71988.1;Parent=rna-NS2;Dbxref=NCBI_GP:CCQ71988.1;Name=CCQ71988.1;gbkey=CDS;gene=NS2;product=nonstructural protein 2;protein_id=CCQ71988.1
+HF674916.1	EMBL	exon	503	838	.	+	.	ID=id-NS2-2;Parent=gene-NS2;exon_number=2;gbkey=exon;gene=NS2;number=2
+HF674916.1	EMBL	gene	1	693	.	+	.	ID=gene-NS1;Name=NS1;gbkey=Gene;gene=NS1;gene_biotype=protein_coding
+HF674916.1	EMBL	CDS	1	693	.	+	0	ID=cds-CCQ71989.1;Parent=gene-NS1;Dbxref=NCBI_GP:CCQ71989.1;Name=CCQ71989.1;gbkey=CDS;gene=NS1;product=nonstructural protein 1;protein_id=CCQ71989.1
+
+##sequence-region HF674917.1 1 2151
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=502956
+HF674917.1	EMBL	region	1	2151	.	+	.	ID=HF674917.1:1..2151;Dbxref=taxon:502956;Name=3;country=Spain:Catalonia;gbkey=Src;isolation-source=lung;lab-host=chicken embryos 1p and MDCKs 1p;mol_type=genomic RNA;nat-host=Swine;note=isolated and serotyped by Jaime Maldonado%2C Laboratorios HIPRA S.A.%2C Girona-Spain;old-name=Influenza A virus (A/Swine/Spain/80598LP4/2007(H1N2));segment=3;serotype=H1N2;strain=A/Swine/Spain/80598LP4/2007
+HF674917.1	EMBL	gene	1	2151	.	+	.	ID=gene-PA;Name=PA;gbkey=Gene;gene=PA;gene_biotype=protein_coding
+HF674917.1	EMBL	CDS	1	2151	.	+	0	ID=cds-CCQ71990.1;Parent=gene-PA;Dbxref=NCBI_GP:CCQ71990.1;Name=CCQ71990.1;gbkey=CDS;gene=PA;product=polymerase PA;protein_id=CCQ71990.1
+HF674917.1	EMBL	gene	1	760	.	+	.	ID=gene-PA-X;Name=PA-X;gbkey=Gene;gene=PA-X;gene_biotype=protein_coding
+HF674917.1	EMBL	exon	1	572	.	+	.	ID=id-PA-X-1;Parent=gene-PA-X;exon_number=1;gbkey=exon;gene=PA-X;number=1
+HF674917.1	EMBL	intron	573	573	.	+	.	ID=id-PA-X;exon_number=1;gbkey=intron;gene=PA-X;number=1
+HF674917.1	EMBL	exon	574	760	.	+	.	ID=id-PA-X-2;Parent=gene-PA-X;exon_number=2;gbkey=exon;gene=PA-X;number=2
+HF674917.1	EMBL	mRNA	1	760	.	+	.	ID=rna-PA-X;Parent=gene-PA-X;gbkey=mRNA;gene=PA-X
+HF674917.1	EMBL	exon	1	572	.	+	.	ID=exon-PA-X-1;Parent=rna-PA-X;gbkey=mRNA;gene=PA-X
+HF674917.1	EMBL	exon	574	760	.	+	.	ID=exon-PA-X-2;Parent=rna-PA-X;gbkey=mRNA;gene=PA-X
+HF674917.1	EMBL	CDS	1	572	.	+	0	ID=cds-CCQ71991.1;Parent=rna-PA-X;Dbxref=NCBI_GP:CCQ71991.1;Name=CCQ71991.1;gbkey=CDS;gene=PA-X;product=PA-X protein;protein_id=CCQ71991.1
+HF674917.1	EMBL	CDS	574	760	.	+	1	ID=cds-CCQ71991.1;Parent=rna-PA-X;Dbxref=NCBI_GP:CCQ71991.1;Name=CCQ71991.1;gbkey=CDS;gene=PA-X;product=PA-X protein;protein_id=CCQ71991.1
+
+##sequence-region HF674918.1 1 2274
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=502956
+HF674918.1	EMBL	region	1	2274	.	+	.	ID=HF674918.1:1..2274;Dbxref=taxon:502956;Name=2;country=Spain:Catalonia;gbkey=Src;isolation-source=lung;lab-host=chicken embryos 1p and MDCKs 1p;mol_type=genomic RNA;nat-host=Swine;note=isolated and serotyped by Jaime Maldonado%2C Laboratorios HIPRA S.A.%2C Girona-Spain;old-name=Influenza A virus (A/Swine/Spain/80598LP4/2007(H1N2));segment=2;serotype=H1N2;strain=A/Swine/Spain/80598LP4/2007
+HF674918.1	EMBL	gene	1	2274	.	+	.	ID=gene-PB1;Name=PB1;gbkey=Gene;gene=PB1;gene_biotype=protein_coding
+HF674918.1	EMBL	CDS	1	2274	.	+	0	ID=cds-CCQ71992.1;Parent=gene-PB1;Dbxref=NCBI_GP:CCQ71992.1;Name=CCQ71992.1;gbkey=CDS;gene=PB1;product=polymerase PB1;protein_id=CCQ71992.1
+HF674918.1	EMBL	gene	95	334	.	+	.	ID=gene-PB1-F2;Name=PB1-F2;gbkey=Gene;gene=PB1-F2;gene_biotype=protein_coding
+HF674918.1	EMBL	CDS	95	334	.	+	0	ID=cds-CCQ71993.1;Parent=gene-PB1-F2;Dbxref=NCBI_GP:CCQ71993.1;Name=CCQ71993.1;gbkey=CDS;gene=PB1-F2;product=PB1-F2 protein;protein_id=CCQ71993.1
+
+##sequence-region HF674919.1 1 2280
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=502956
+HF674919.1	EMBL	region	1	2280	.	+	.	ID=HF674919.1:1..2280;Dbxref=taxon:502956;Name=1;country=Spain:Catalonia;gbkey=Src;isolation-source=lung;lab-host=chicken embryos 1p and MDCKs 1p;mol_type=genomic RNA;nat-host=Swine;note=isolated and serotyped by Jaime Maldonado%2C Laboratorios HIPRA S.A.%2C Girona-Spain;old-name=Influenza A virus (A/Swine/Spain/80598LP4/2007(H1N2));segment=1;serotype=H1N2;strain=A/Swine/Spain/80598LP4/2007
+HF674919.1	EMBL	gene	1	2280	.	+	.	ID=gene-PB2;Name=PB2;gbkey=Gene;gene=PB2;gene_biotype=protein_coding
+HF674919.1	EMBL	CDS	1	2280	.	+	0	ID=cds-CCQ71994.1;Parent=gene-PB2;Dbxref=NCBI_GP:CCQ71994.1;Name=CCQ71994.1;gbkey=CDS;gene=PB2;product=polymerase PB2;protein_id=CCQ71994.1
+

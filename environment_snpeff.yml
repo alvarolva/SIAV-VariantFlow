@@ -1,0 +1,11 @@
+name: siav-snpeff
+
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  - python=3.14
+  - openjdk=21
+  - snpeff=5.4.0c
