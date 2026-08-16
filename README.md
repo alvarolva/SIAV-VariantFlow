@@ -2,7 +2,7 @@
 
 ### A reproducible workflow for low-frequency intrahost variant analysis of swine influenza A virus
 
-**SIAV-VariantFlow** is a reproducible bioinformatics workflow for the detection, annotation and visualization of low-frequency intrahost genetic variation in swine influenza A virus (swIAV) from Illumina paired-end sequencing data.
+**SIAV-VariantFlow** is a reproducible bioinformatics workflow for the detection, annotation and visualization of low-frequency intrahost genetic variation in swine influenza A virus (SIAV) from Illumina paired-end sequencing data.
 
 The workflow covers the complete analysis from raw sequencing reads to annotated variant tables and coverage visualizations. The H1N2 dataset associated with **NCBI BioProject PRJNA994299** is provided as a reproducible example.
 
