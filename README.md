@@ -20,57 +20,11 @@ These analyses evolved across studies involving H1N1, H3N2 and H1N2 viruses unde
 
 ## Workflow overview
 
-```text
-NCBI SRA / Illumina paired-end reads
-                 │
-                 ▼
-        00_download_data.sh
-                 │
-                 ▼
-           Raw FASTQ files
-                 │
-                 ▼
-       01_quality_control.sh
-                 │
-       FastQC / Trimmomatic
-             / MultiQC
-                 │
-                 ▼
-        Trimmed paired reads
-                 │
-                 ├──────────────────────────┐
-                 ▼                          │
-02_build_inoculum_consensus.sh              │
-                 │                          │
-                 ▼                          │
-     Inoculum consensus genome              │
-                 │                          │
-                 ▼                          │
-       04_analyze_samples.sh ◄──────────────┘
-                 │
-        Mapping / BAM processing
-          Coverage calculation
-             BQSR / LoFreq
-          Variant filtering
-          SnpEff annotation
-                 │
-           ┌─────┴─────┐
-           ▼           ▼
-   all_variants.tsv  all_depth.tsv
-           │           │
-           ▼           ▼
-05_prepare_variant  06_plot_coverage.R
-     _table.sh
-           │           │
-           ▼           ▼
- Annotated variants  Coverage figures
-```
+![SIAV-VariantFlow workflow](docs/workflow.png)
 
-The custom SnpEff database required for variant annotation is generated with:
+The workflow first reconstructs an inoculum consensus genome from the H1N2 inoculum sample and uses this consensus as the reference for low-frequency variant analysis in the remaining samples.
 
-```text
-03_build_snpeff_database.sh
-```
+A local H1N2 SnpEff database is built from the reference FASTA and GFF3 files for functional annotation of retained variants.
 
 ---
 
